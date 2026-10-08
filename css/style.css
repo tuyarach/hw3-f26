@@ -40,7 +40,7 @@ nav a:focus {
 /*Write selector/rule property to add the background image to the first div in the grid and place it in the grid. */
 
 div:first-child {
-     grid-column: 1 / span all;
+     grid-column: 1 / -1;
      background-image: url("../images/header.jpg");
 }
 
@@ -170,7 +170,7 @@ img {
 
      .text-block {
           max-height: 235px;
-          overflow: hidden;
+          overflow: scroll;
      }
 
 }
